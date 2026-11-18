@@ -4,3 +4,9 @@ __pycache__/
 .env
 *.db
 .ipynb_checkpoints/
+
+*.jpg
+*.jpeg
+*.png
+*.JPG
+*.gif

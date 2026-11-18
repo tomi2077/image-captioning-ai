@@ -7,7 +7,7 @@ processor = AutoProcessor.from_pretrained("Salesforce/blip-image-captioning-base
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
 # Load your image, DON'T FORGET TO WRITE YOUR IMAGE NAME
-img_path = "culvert_m.JPG"
+img_path = "chelsea_fc.jpg"
 # convert it into an RGB format 
 image = Image.open(img_path).convert('RGB')
 
